@@ -1,0 +1,39 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+header h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 24px;
+}
+
+header span {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 480px 480px;
+  grid-template-rows: 360px 360px;
+}
+
+section {
+}
