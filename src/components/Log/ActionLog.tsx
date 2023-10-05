@@ -33,11 +33,11 @@ const Value = styled.span`
   font-size: 18px;
 `;
 
-const InfoLog = () => {
+const ActionLog = () => {
   return (
     <Container>
       <Header>
-        <Title>사용자 정보</Title>
+        <Title>행동 기록</Title>
       </Header>
       <Content>
         <Info>
@@ -71,4 +71,4 @@ const InfoLog = () => {
   );
 };
 
-export default InfoLog;
+export default ActionLog;

@@ -1,10 +1,10 @@
 import React from "react";
 import RTSPPlayer from "./components/RTSPPlayer";
 import ChatLog from "./components/Log/ChatLog";
-import InfoLog from "./components/Log/InfoLog";
+import ActionLog from "./components/Log/ActionLog";
+import StatisticLog from "./components/Log/StatisticLog";
 
 import "./App.css";
-import TodoLog from "./components/Log/TodoLog";
 
 function App() {
   return (
@@ -22,10 +22,10 @@ function App() {
             <ChatLog />
           </section>
           <section>
-            <InfoLog />
+            <ActionLog />
           </section>
           <section>
-            <TodoLog />
+            <StatisticLog />
           </section>
         </div>
       </main>

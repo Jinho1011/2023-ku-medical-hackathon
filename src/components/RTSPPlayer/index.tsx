@@ -10,6 +10,7 @@ const RTSPPlayer = () => {
   return (
     <ReactPlayer
       url={RTSP_URL}
+      style={{ backgroundColor: "#000", borderRadius: 16 }}
       width="100%"
       height="100%"
       playing={true}

@@ -1,5 +1,5 @@
-import React from "react";
 import styled from "styled-components";
+
 import { Container, Header, Title } from "./Log.Styles";
 import { Content } from "./ChatLog.styles";
 
@@ -28,11 +28,11 @@ const TodoIcon = styled.span`
   font-size: 20px;
 `;
 
-const TodoLog = () => {
+const StatisticLog = () => {
   return (
     <Container>
       <Header>
-        <Title>할일 정보</Title>
+        <Title>통계 정보</Title>
       </Header>
       <Content>
         <Todo>
@@ -68,4 +68,4 @@ const TodoLog = () => {
   );
 };
 
-export default TodoLog;
+export default StatisticLog;

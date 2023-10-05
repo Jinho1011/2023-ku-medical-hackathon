@@ -49,14 +49,14 @@ const ChatLog = () => {
   return (
     <Container>
       <Header>
-        <Title>대화 기록</Title>
+        <Title>발화 기록</Title>
       </Header>
       <Content>
         {chats.map((chat) => {
           if (chat.role === "user") {
-            return <ReceivedChat>{chat.content}</ReceivedChat>;
+            return <ReceivedChat key={chat.id}> {chat.content}</ReceivedChat>;
           }
-          return <SentChat>{chat.content}</SentChat>;
+          return <SentChat key={chat.id}>{chat.content}</SentChat>;
         })}
       </Content>
     </Container>
