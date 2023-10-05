@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header>
         <h1>Daila</h1>
-        <span>킹갓제너럴어쩌구저쩌구메디컬해커톤아자아자화이팅</span>
+        <span>너는 다일라다일라 나는 통카닥콩카닥이 다일라다일라 요기조기</span>
       </header>
       <main>
         <div className="container">

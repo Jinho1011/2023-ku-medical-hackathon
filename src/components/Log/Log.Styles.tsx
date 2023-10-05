@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -10,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  padding: 16px 20px;
+  padding: 16px;
 `;
 
 export const Title = styled.h2`
