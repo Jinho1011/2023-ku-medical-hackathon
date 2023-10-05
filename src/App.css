@@ -2,11 +2,12 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 20px;
   padding: 20px 40px;
 }
@@ -17,7 +18,6 @@ header h1 {
 }
 
 header span {
-  font-family: "Noto Sans KR", sans-serif;
   font-weight: 300;
 }
 
@@ -31,9 +31,7 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: 480px 480px;
-  grid-template-rows: 360px 360px;
-}
-
-section {
+  grid-template-columns: repeat(2, 460px);
+  grid-template-rows: repeat(2, 340px);
+  gap: 24px;
 }

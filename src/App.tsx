@@ -1,5 +1,7 @@
 import React from "react";
 import RTSPPlayer from "./components/RTSPPlayer";
+import ChatLog from "./components/Log/ChatLog";
+import InfoLog from "./components/Log/InfoLog";
 
 import "./App.css";
 
@@ -12,10 +14,18 @@ function App() {
       </header>
       <main>
         <div className="container">
-          <RTSPPlayer />
-          <RTSPPlayer />
-          <RTSPPlayer />
-          <RTSPPlayer />
+          <section>
+            <RTSPPlayer />
+          </section>
+          <section>
+            <ChatLog />
+          </section>
+          <section>
+            <InfoLog />
+          </section>
+          <section>
+            <InfoLog />
+          </section>
         </div>
       </main>
     </div>

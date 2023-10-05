@@ -8,16 +8,14 @@ const RTSP_URL =
 
 const RTSPPlayer = () => {
   return (
-    <div>
-      <ReactPlayer
-        url={RTSP_URL}
-        width="100%"
-        height="100%"
-        playing={true}
-        controls={false}
-        muted={true}
-      />
-    </div>
+    <ReactPlayer
+      url={RTSP_URL}
+      width="100%"
+      height="100%"
+      playing={true}
+      controls={false}
+      muted={true}
+    />
   );
 };
 
