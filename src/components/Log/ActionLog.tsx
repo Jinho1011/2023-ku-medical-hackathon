@@ -83,7 +83,7 @@ const ActionLog = () => {
                 sasda sasa sda sasa sd asasas dasas asdasas sdasa sasdasasa
                 sdasasas dasas
               </Prompt>
-            </PromptBox>{" "}
+            </PromptBox>
             <PromptBox>
               <Timestamp>오후 11:45:10</Timestamp>
               <Prompt>
@@ -93,7 +93,12 @@ const ActionLog = () => {
               </Prompt>
             </PromptBox>
           </Side>
-          <Side></Side>
+          <Side>
+            <PromptBox>
+              <Timestamp>오후 11:45:10</Timestamp>
+              <Prompt>커피 마심</Prompt>
+            </PromptBox>
+          </Side>
         </SideContainer>
       </Content>
     </Container>
