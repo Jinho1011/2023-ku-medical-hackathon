@@ -4,6 +4,7 @@ import ChatLog from "./components/Log/ChatLog";
 import InfoLog from "./components/Log/InfoLog";
 
 import "./App.css";
+import TodoLog from "./components/Log/TodoLog";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <InfoLog />
           </section>
           <section>
-            <InfoLog />
+            <TodoLog />
           </section>
         </div>
       </main>
